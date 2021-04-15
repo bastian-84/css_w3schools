@@ -155,41 +155,174 @@
             </li>
         </ul>
     </div>
-    <h2></h2>
-    <div class='class12'></div>
+    <h2>attr. selector</h2>
+    <div class='class12'>
+        <a href='#'>link ohne _blank</a>
+        <a href='#' target='_blank'>link mit _blank</a>
+    </div>
 
-    <h2></h2>
-    <div class='class13'></div>
+    <h2>Form, focus effect</h2>
+    <div class='class13'>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" value="John">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" value="Doe">
+          </form>
+    </div>
 
-    <h2></h2>
-    <div class='class14'></div>
+    <h2>auto. counters</h2>
+    <div class='class14'>
+        <h3>Using CSS Counters:</h3>
+        <h4>HTML Tutorial</h4>
+        <h4>CSS Tutorial</h4>
+        <h4>JavaScript Tutorial</h4>
+    </div>
 
-    <h2></h2>
+    <h2>border-radius, alle 4 Ecken angesprochen</h2>
     <div class='class15'></div>
 
-    <h2></h2>
-    <div class='class16'></div>
+    <h2>border img</h2>
+    <div class='class16'>
+        <p id="borderimg">border-image: url(border.png) 30 round;</p>
+        <p id="borderimg">border-image: url(border.png) 30 stretch;</p>
+    </div>
+
+    <h2>Hero img</h2>
+    <p>Perfekt für Header, Bild wächst mit</p>
+    <div class='class17'>
+        <div class="hero-image">
+            <div class="hero-text">
+              <h1 style="font-size:50px">I am a tashikoma</h1>
+              <h3>And I'm a Photographer</h3>
+              <button>Hire me</button>
+            </div>
+          </div>
+          
+          <p>Page content..</p>
+          <p>Note that this technique will also make the image responsive: Resize the browser window to see the effect.</p>
+    </div>
+
+    <h2>Text vertical</h2>
+    <div class='class18'>
+        <p>Some text with a span element with a <span class="test2">vertical-rl</span> writing-mode.</p>
+    </div>
+
+    <h2>Wdh. @font-face</h2>
+    <p>With CSS, websites can use fonts other than the pre-selected "web-safe" fonts.</p>
+    <div class='class19'>
+        With CSS, websites can use fonts other than the pre-selected "web-safe" fonts.
+    </div>
+
+    <h2>animation</h2>
+    <h3>animation</h3>
+    <p>@keyframes</p>
+    <div class='class20'>
+        <div></div>
+    </div>
+
+    <h3>transition</h3>
+    <div class='class21'>
+        <div></div>
+    </div>
+
+    <h3>transition & transform</h3>
+    <div class='class22'>
+        <div></div>
+    </div>
+
+    <h2>tooltip</h2>
+    <p>Prinzip visibility hidden/visible on :hover</p>
+    <div class='class23'>
+        <div class="tooltip">Hover over me
+            <span class="tooltiptext">Tooltip text</span>
+          </div>
+    </div>
+
+    <h2>image filter effects</h2>
+    <div class='class24'>
+        <img src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="blur" src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="brightness" src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="contrast" src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="grayscale" src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="huerotate" src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="invert" src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="opacity" src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="saturate" src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="sepia" src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="shadow" src="./assets/img/pineapple.jpg" alt="Pineapple" width="300" height="300">
+
+    </div>
+    <div class='class24-2'></div>
+
+    <h2>Image fit in container</h2>
+    <p>no-fit</p>
+    <div class='class25'>
+        <img src="./assets/img/paris.jpg" alt="Paris" width="400" height="300">
+    </div>
+
+    <p>fit</p>
+    <small>object-fit: none;</small>
+    <div class='class26'>
+        <img src="./assets/img/paris.jpg" alt="Paris" width="400" height="300">
+    </div>
+
+    <p>fit</p>
+    <small>object-fit: cover;</small>
+    <div class='class27'>
+        <img src="./assets/img/paris.jpg" alt="Paris" width="400" height="300">
+    </div>
+    <p>fit, versetzt</p>
+    <small>object-fit: cover;</small>
+    <br />
+    <small>object-position: 85% 100%;</small>
+    <div class='class28'>
+        <img src="./assets/img/paris.jpg" alt="Paris" width="400" height="300">
+    </div>
+
+    <h2>var in css</h2>
+    <div class='class29'>
+        <div class="container">
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+            <p>
+              <button>Yes</button>
+              <button>No</button>
+            </p>
+          </div>
+    </div>
 
     <h2></h2>
-    <div class='class17'></div>
+    <div class='class30'></div>
 
     <h2></h2>
-    <div class='class18'></div>
+    <div class='class31'></div>
 
     <h2></h2>
-    <div class='class19'></div>
+    <div class='class32'></div>
 
     <h2></h2>
-    <div class='class20'></div>
+    <div class='class33'></div>
 
     <h2></h2>
-    <div class='class'></div>
+    <div class='class34'></div>
 
     <h2></h2>
-    <div class='class'></div>
+    <div class='class35'></div>
 
     <h2></h2>
-    <div class='class'></div>
+    <div class='class36'></div>
+
+    <h2></h2>
+    <div class='class37'></div>
+
+    <h2></h2>
+    <div class='class38'></div>
+
+    <h2></h2>
+    <div class='class39'></div>
 
     <h2></h2>
     <div class='class'></div>
